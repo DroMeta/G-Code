@@ -1,25 +1,25 @@
-# GitHub desktop install / update / uninstall script
+# GitHub desktop. 
 
-This script is capable to download and install the most recent GitHub desktop version for your Linux system. 
-It is also able to update and uninstall GitHub desktop. By default, the script will automatically check if an update is available.
-The script works with deb and rpm packages. If your system does not use deb or rpm packages, it will fall back to the available AppImage.
+This script is capable of downloading and installing the most recent GitHub desktop version for your Linux OS. 
+It is able to install, update and uninstall GitHub desktop. By default, the script will automatically check if an update is available.
+The script works with deb and rpm packages, so it will fall back to the available AppImage If your system does not use deb or rpm packages,
 
 ## Usage
 The installation script will be downloaded with curl and afterward executed.
 | Tool | Command                                                                                                                        |
 |:-----|:-------------------------------------------------------------------------------------------------------------------------------|
-| curl | `bash -c "$(curl -fsSL https://raw.githubusercontent.com/kontr0x/github-desktop-install/main/installGitHubDesktop.sh)" `       |
-| wget | `bash -c "$(wget -O- https://raw.githubusercontent.com/kontr0x/github-desktop-install/main/installGitHubDesktop.sh)"`          |
+| curl | `bash -c "$(curl -fsSL https://raw.githubusercontent.com/DroMeta/GHub-Code/main/installGitHubDesktop.sh)" `       |
+| wget | `bash -c "$(wget -O- https://raw.githubusercontent.com/DroMeta/GHub-Code/main/installGitHubDesktop.sh)"`          |
 
 ### Manual execution
-It is always a good idea to inspect the script you are getting from the internet. 
-Please feel free to first inspect the script and execute the script manually with bash.
+It is always a good idea to inspect the script you are getting off the webnets. 
+Please go ahead and inspect the scripts first or we can execute the script manually with the methods below now.
 ```bash
 # --------------------
 # curl method
-curl -fsSL https://raw.githubusercontent.com/kontr0x/github-desktop-install/main/installGitHubDesktop.sh -o installGitHubDesktop.sh
+curl -fsSL https://raw.githubusercontent.com/DroMeta/GHub-Code/main/installGitHubDesktop.sh -o installGitHubDesktop.sh
 # wget method
-wget https://raw.githubusercontent.com/kontr0x/github-desktop-install/main/installGitHubDesktop.sh
+wget https://raw.githubusercontent.com/DroMeta/GHub-Code/main/installGitHubDesktop.sh
 # --------------------
 bash ./installGitHubDesktop.sh
 ```

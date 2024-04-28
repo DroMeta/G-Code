@@ -1,11 +1,10 @@
 # GitHub desktop. 
 
-This script is capable of downloading and installing the most recent GitHub desktop version for your Linux OS. 
-It is able to install, update and uninstall GitHub desktop. By default, the script will automatically check if an update is available.
-The script works with deb and rpm packages, so it will fall back to the available AppImage If your system does not use deb or rpm packages,
+This script is meant for personal use but anyone is more then welcome to use it as you wish. The said script will download and install the most recent GitHub desktop version for your Linux OS. It is able to install, update and uninstall GitHub desktop. By default, the script will automatically check if an update is available.
+The script works with deb and rpm packages, so it will fall back to the available AppImage If your system does not use deb or rpm.
 
-## Usage
-The installation script will be downloaded with curl and afterward executed.
+## Execute
+Executable bash scripts below. it will download then install GitHub Desktop
 | Tool | Command                                                                                                                        |
 |:-----|:-------------------------------------------------------------------------------------------------------------------------------|
 | curl | `bash -c "$(curl -fsSL https://raw.githubusercontent.com/DroMeta/GHub-Code/main/installGitHubDesktop.sh)" `       |

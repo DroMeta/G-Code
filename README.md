@@ -7,8 +7,8 @@ The script works with deb and rpm packages, so it will fall back to the availabl
 Executable bash scripts below. it will download then install GitHub Desktop
 | Tool | Command                                                                                                                        |
 |:-----|:-------------------------------------------------------------------------------------------------------------------------------|
-| curl | `bash -c "$(curl -fsSL https://raw.githubusercontent.com/DroMeta/GHub-Code/main/installGitHubDesktop.sh)" `       |
-| wget | `bash -c "$(wget -O- https://raw.githubusercontent.com/DroMeta/GHub-Code/main/installGitHubDesktop.sh)"`          |
+| curl | `bash -c "$(curl -fsSL https://raw.githubusercontent.com/DroMeta/G-Code/main/installGitHubDesktop.sh)" `       |
+| wget | `bash -c "$(wget -O- https://raw.githubusercontent.com/DroMeta/G-Code/main/installGitHubDesktop.sh)"`          |
 
 ### Manual execution
 It is always a good idea to inspect the script you are getting off the webnets. 
@@ -16,9 +16,9 @@ Please go ahead and inspect the scripts first or we can execute the script manua
 ```bash
 # --------------------
 # curl method
-curl -fsSL https://raw.githubusercontent.com/DroMeta/GHub-Code/main/installGitHubDesktop.sh -o installGitHubDesktop.sh
+curl -fsSL https://raw.githubusercontent.com/DroMeta/G-Code/main/installGitHubDesktop.sh -o installGitHubDesktop.sh
 # wget method
-wget https://raw.githubusercontent.com/DroMeta/GHub-Code/main/installGitHubDesktop.sh
+wget https://raw.githubusercontent.com/DroMeta/G-Code/main/installGitHubDesktop.sh
 # --------------------
 bash ./installGitHubDesktop.sh
 ```
